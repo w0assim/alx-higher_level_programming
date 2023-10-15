@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(.\/$PYFILE)>${PYFILE}c
+chmod 777 $PYFILE && echo $(.\/$PYFILE)>${PYFILE}c
