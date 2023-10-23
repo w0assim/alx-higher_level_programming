@@ -5,4 +5,4 @@ def remove_char_at(str, n):
         print(i)
         if i != n:
             strDup += str[i]
-        return strDup
+        return -1
