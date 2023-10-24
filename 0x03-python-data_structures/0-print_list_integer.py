@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
+def print_list_integer(my_list=[]):
     new_matrix = []
-    for col in matrix:
+    for col in my_list:
         result = list(map(lambda x: x**2, col))
         new_matrix.append(result)
     return new_matrix
