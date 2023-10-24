@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     sum = 0
     if len(argv) <= 1:
         print("{}".format(sum))
