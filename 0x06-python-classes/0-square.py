@@ -4,6 +4,7 @@
 clas square
 """
 
+
 class Square:
     """
     represent a square
