@@ -6,4 +6,4 @@ if __name__ == "__main__":
         print("{}".format(sum))
     else:
         for i in range(1, len(argv)):
-            sum += argv[i]
+            sum += int(argv[i])
